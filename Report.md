@@ -36,7 +36,9 @@ Each actor can only access its own input environment, while the critic can use b
 
 ## Episodes
 
-It required approximately 2000 episodes to train the agent and achieve an average score of 0.5+ over 100 episodes. The graph is shown in the Jupyter notebook and the weights have been saved.
+It required 1500 episodes to train the agent and achieve an average score of 0.5+ over 100 episodes as per this graph:
+
+![Success!](success_graph.png "Success!")
 
 Note that even with the same hyperparameters, the network does not always converge to the same results. Multiple runs using the same parameters are required before achieving the 0.5+ scores.
 

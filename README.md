@@ -6,6 +6,8 @@ The observation space for each agent consists of 24 variables corresponding to  
 
 Each action is a vector with two numbers, corresponding to movement toward (or away from) the net, and jumping.
 
+The success criteria is for the agents to get an average score of +0.5 (over 100 consecutive episodes, after taking the maximum over both agents).
+
 ## Instructions
 
 1. Follow the instructions in the [DRLND GitHub repository](https://github.com/udacity/deep-reinforcement-learning#dependencies) to set up the Python experiment.
